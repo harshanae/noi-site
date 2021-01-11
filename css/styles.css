@@ -5,6 +5,24 @@
 body{
     font-size: 14px;
     background-color: #202428;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.dropdown-menu.bg-dark .dropdown-item:hover{
+    background-color: #212529;
+}
+
+.dropdown-menu.bg-dark .dropdown-item{
+    color: white!important;
+    font-size: 14px;
+}
+
+.dropdown-item{
+    color: white;
 }
 #promo-logo{
     width: 150px;
@@ -12,7 +30,7 @@ body{
 }
 
 #content-container{
-    background-image: url("../img/bgimg.jpg");
+    background-image: url("../img/lol-bg.png");
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
@@ -25,13 +43,101 @@ body{
     color: #eebd37;
 }
 
+.jumbotron{
+    background-color: transparent;
+}
+
+#reg-link{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #eebd37;
+}
+
+#reg-link a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.reg-button:hover{
+    background-color: #eebd37;
+    transition: 0.5s;
+}
+
+.reg-button{
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #cda531;
+    font-weight: 700;
+    color: #2b240b;
+    border: 2px solid #2b240b;
+    border-style: wave;
+}
+
+.page-title{
+    background-image: url("../img/bg2img.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 0;
+}
+
+.overlay{
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0 , 0 , 0.6);
+}
+
+#reg-title{
+    text-transform: uppercase;
+}
+
 .promo-subtext{
     color: #d2a85c;
+    padding-bottom: 40px;
+}
+
+
+
+#contestant-row{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px 10px white;
+}
+
+.delegete{
+    position: relative;
+}
+
+.delegete h4, .delegete h6{
+    /*color: white;*/
+    position: relative;
+    text-align: center;
+}
+.delegete h4{
+    font-weight: bold;
+}
+
+.card{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-menu.bg-dark .dropdown-item{
     color: #6c757d;
 }
+
+p.card-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
 
 #bgimg{
     /*position: absolute;*/
@@ -41,6 +147,7 @@ body{
     overflow: hidden;
 }
 
+
 #content{
     position: absolute;
 }
@@ -48,10 +155,32 @@ body{
     color: white;
 }
 
+.about-content{
+
+    position: relative;
+}
+
 #noi-about{
     align-items: center;
     justify-content: center;
     color: white;
+    margin: 20px;
+}
+
+#about-text{
+    padding: 50px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#about-logo{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;
+    opacity: initial;
 }
 
 #noi-about .text-content{
@@ -97,6 +226,32 @@ body{
 .icon{
     font-size: 40px;
     text-align: center;
+}
+
+.sm-icon-link{
+    color: white;
+}
+
+.sm-icon-link:hover{
+    font-size: 110%;
+    text-decoration: none;
+    color: white;
+}
+
+.row.icons{
+    position: relative;
+    background-color: white;
+}
+
+img.img-fluid.logo{
+    display: block;
+    position: relative;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.img-fluid.logo.noi{
+    margin-top: 40px;
 }
 
 
